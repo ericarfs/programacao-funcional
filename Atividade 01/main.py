@@ -5,7 +5,7 @@ def cauda(a):
     return a[1:]
 
 def num_primo(numero, fator): 
-    if fator == numero:
+    if fator > (numero/2) + 1:
         return True 
     
     if numero % fator == 0:
