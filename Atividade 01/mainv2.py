@@ -31,10 +31,10 @@ def buscar_maior_diferenca(lista, maior_diferenca, comb):
         return maior_diferenca
     
     m = cauda(lista)
-    c = cabeca(lista)
+    c1 = cabeca(lista)
     c2 = cabeca(m)
 
-    return buscar_maior_diferenca(m, comb(c2 - c, maior_diferenca), comb)
+    return buscar_maior_diferenca(m, comb(c2 - c1, maior_diferenca), comb)
 
 
 
