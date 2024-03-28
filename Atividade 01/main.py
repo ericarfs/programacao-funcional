@@ -1,3 +1,9 @@
+"""
+  Érica Ribeiro Filgueira dos Santos - nUSP: 11836351
+  SSC0960 - Programação Funcional (2024)
+  Trabalho 01
+"""
+
 def cabeca(a): 
     return a[0]
 
